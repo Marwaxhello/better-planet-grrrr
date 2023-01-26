@@ -1,9 +1,11 @@
 <template>
   <div id="landing-page">
+    <img id="top-nav-design" src="~/assets/design.svg" alt="design">  
     <div id="landing-page-inner">
-      <h1>50K</h1>
+      <h1 class="animate-charcter">50K</h1>
       <h3>for a better planet</h3>
       <CustomButton xl="true" label="apply now" />
+      <p class="body-1">Deadline feb 13, 2023</p>
       <p class="body-1">
         We believe that climate-tech startups have the power to make a
         significant positive social impact on a large scale. We want to help
@@ -11,7 +13,7 @@
         €50.000 in a startup fund, providing promising pioneers with the tools
         they need to push their mission further.
       </p>
-      <img src="" alt="Clean-up" />
+      <img  src="~/assets/images/case-1.png" alt="case-1" />
 
       <HeaderBlock text="Who’s behind this?" />
 
@@ -26,6 +28,9 @@
         Fastned (with xx result) and SkyNRG (with xx result) is what keeps us
         going.
       </p>
+
+      <img v-vue-aos="{animationClass:'fadeLeft animated'}" src="~/assets/images/ocean-clean-up.png" alt="Clean-up" />
+
 
       <HeaderBlock text="WHAT’S THE FUND?" />
 
@@ -56,11 +61,12 @@
         by visualising your brand, over the following four phases:
       </p>
 
-      <!-- NOTE:four step time line -->
-      <!-- Phase One: Brand Strategy
-      Phase Two: Visual Identity
-      Phase Three: Communication Tools (pitch deck, storyline, tone of voice guidelines)
-      Phase Four: One page Website -->
+
+      <ul class="body-1">
+        <li>Phase Two: Visual Identity</li>
+        <li>Phase Three: Communication Tools (pitch deck, storyline, tone of voice guidelines)  </li>
+        <li>Phase Four: One page Website </li>
+      </ul>
 
       <p class="body-1" >At the end of the process you’ll be armed with a clear</p>
 
@@ -70,6 +76,8 @@
         stage of their startup journey. Applicants will be assessed based on the
         questions answered in the application form, but must also be able to:
       </p>
+
+
 
       <ul class="body-1">
         <li>Provide input and feedback </li>
@@ -95,14 +103,17 @@
       
       <div class="deadline-section">
         <CustomButton  xl="true" label="apply now"></CustomButton>
-        <p class="body-1">Deadline feb 13 2023</p>
+        <p class="body-1">Deadline feb 13, 2023</p>
       </div>
 
       <p class="body-1 center-text">
         This is a project by GRRR - creative agency for meaningful matters,
         based in Amsterdam.
       </p>
+
     </div>
+    <img id="bottom-nav-design" src="~/assets/design.svg" alt="design">  
+
   </div>
 </template>
 
@@ -121,7 +132,56 @@ export default {
 #landing-page {
   width: 100%;
   display: flex;
+  position: relative;
   justify-content: center;
+  background: rgb(81,69,255);
+  background: radial-gradient(circle, rgba(81,69,255,1) 5%, rgba(255,237,220,1) 76%);
+}
+
+#landing-page h1{
+  margin-top: 7rem;
+  color: $primary-green;
+
+
+                @media only screen and (max-width: $tablet) {
+                        color:$primary-blue;
+                    }
+}
+
+#top-nav-design{
+  // width: 100vw;
+  height: 50rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#bottom-nav-design{
+  width: 100vw;
+  position: absolute;
+  bottom: -8rem;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  transform: rotate(180deg)
+}
+
+              @media only screen and (max-width: $tablet) {
+       #bottom-nav-design, #top-nav-design{
+        display: none;
+       }
+      }
+
+
+img {
+  margin-bottom: 3rem;
+    border-radius: 4px;
+
+              @media only screen and (max-width: $tablet) {
+        width: 100%;
+      }
 }
 
 .partners{
@@ -155,6 +215,7 @@ export default {
  
 #landing-page-inner {
   width: 860px;
+  z-index: 1;
   // border: 1px solid blue;
 
        @media only screen and (max-width: $tablet) {
@@ -162,6 +223,16 @@ export default {
            padding: 0 2.875rem;
       }
 }
+
+@keyframes anim {
+  from {
+    text-shadow: 0 0 10px transparent;
+  }
+  to {
+    text-shadow: 0 28px 50px rgba(0, 0, 0, 0.8);
+  }
+}
+
 
 
 </style>
