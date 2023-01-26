@@ -51,13 +51,13 @@ Niet gelukt:
 
 ## KENMERKEN🚀
 
+* HTML
+
 * VUE
 
 * SCSS
 
 * JS
-
-* HTML
 
 ## LICENTIE💡
 
