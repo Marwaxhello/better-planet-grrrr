@@ -4,9 +4,9 @@
 
 <img width="1500" alt="Screenshot 2023-01-26 at 00 00 44" src="https://user-images.githubusercontent.com/112861555/214711326-3b336e88-1821-46ff-a497-0ac610a9b2d6.png">
 
-<img width="250" alt="Screenshot 2023-01-26 at 00 00 29" src="https://user-images.githubusercontent.com/112861555/214711341-64ba453f-aa6c-4098-80cd-dd6b90b2198d.png">
+<!-- <img width="250" alt="Screenshot 2023-01-26 at 00 00 29" src="https://user-images.githubusercontent.com/112861555/214711341-64ba453f-aa6c-4098-80cd-dd6b90b2198d.png">
 
-<img width="250" alt="Screenshot 2023-01-26 at 01 07 48" src="https://user-images.githubusercontent.com/112861555/214722183-e1d0051b-ee5e-49bb-8569-4cebbdf02c53.png">
+<img width="250" alt="Screenshot 2023-01-26 at 01 07 48" src="https://user-images.githubusercontent.com/112861555/214722183-e1d0051b-ee5e-49bb-8569-4cebbdf02c53.png"> -->
 
 ## INHOUDSOPGAVE📃
 
