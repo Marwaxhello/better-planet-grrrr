@@ -8,15 +8,14 @@
 
 <img width="250" alt="Screenshot 2023-01-26 at 01 07 48" src="https://user-images.githubusercontent.com/112861555/214722183-e1d0051b-ee5e-49bb-8569-4cebbdf02c53.png">
 
-
 ## INHOUDSOPGAVE📃
 
-* GRR
-* Opdracht doel
-* Gebruik van de website
-* Wel/ niet gelukt
-* Kenmerken
-* Licentie
+- GRR
+- Opdracht doel
+- Gebruik van de website
+- Wel/ niet gelukt
+- Kenmerken
+- Licentie
 
 ## GRRR🌊
 
@@ -38,26 +37,28 @@ Op de website heb ik een design-curve helemaal bovenop en helemaal onderin gepla
 ## WEL/NIET GELUKT✔️
 
 Wel gelukt:
-* Alle informatie zit erin
-* Responsive website
-* Curve design
-* Button animation
+
+- Alle informatie zit erin
+- Responsive website
+- Curve design
+- Button animation
 
 Niet gelukt:
-* Niet alles is gecentreerd 
-* Img left-flip animation
-* Headline block kleiner maken
-* Time-line
+
+- Niet alles is gecentreerd
+- Img left-flip animation
+- Headline block kleiner maken
+- Time-line
 
 ## KENMERKEN🚀
 
-* HTML
+- HTML
 
-* VUE
+- VUE
 
-* SCSS
+- SCSS
 
-* JS
+- JS
 
 ## LICENTIE💡
 
